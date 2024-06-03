@@ -29,7 +29,7 @@ export default function SignUp() {
       }
       setLoading(false);
       if(res.ok){
-        navigate('/sign-in');
+        navigate('/sign-in'); 
       }
     } catch (error) {
       setErrorMessage(error.message);
@@ -42,10 +42,10 @@ export default function SignUp() {
         <div className="flex-1">
           <Link to="/" className="   font-bold dark:text-white text-4xl">
             <span className="px-2 py-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg text-white">
-              Your Own
+              Thoughtful
             </span>
             <span> </span>
-            Blogs
+            Threads
           </Link>
           <p className="text-sm mt-5">
             "Where Every Word Matters - Dive Into Thoughtful Insights and
