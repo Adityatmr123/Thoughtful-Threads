@@ -45,7 +45,7 @@ To get started with Thoughtful Threads, follow these steps:
 4. Start the backend server:
     ```bash
     npm start
-    ```
+    `
 
 ### Frontend Setup
 
